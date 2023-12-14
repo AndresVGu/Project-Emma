@@ -44,12 +44,14 @@ body.dark{
     --dark: #fbfbfb
 }
 
+
+
 body{
     background: var(--grey);
-    overflow-x: hidden;
-  
-    
+    overflow-x: hidden; 
   }
+
+
 
 .sidebar{
     position: fixed;

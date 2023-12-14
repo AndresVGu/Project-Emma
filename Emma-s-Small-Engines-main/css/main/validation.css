@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+#body-index{
     /*#c9d6ff*/
     background-color: #8a3cba8f;
     background: linear-gradient(to right, #e2e2e2,
@@ -17,7 +17,7 @@ body{
     flex-direction: column;
     height: 100vh;
 }
-
+ 
 .box{
     background-color: #fff;
     border-radius: 30px;
@@ -25,8 +25,8 @@ body{
     position: relative;
     overflow: hidden;
     width: 786px;
-    min-width: 50%;
-    min-height: 700px;
+    min-width: 10%;
+    min-height: 400px;
 }
 
 .box p{
@@ -72,7 +72,7 @@ body{
     justify-content: center;
     flex-direction: column;
     padding: 0 5px;
-    height: 45%;
+    height: 100%;
 }
 
 .box input{
@@ -88,15 +88,15 @@ body{
 
 .form-box{
     position: absolute;
-    top: 0;
-    height: 95%;
+    top: 1;
+    height:80%;
     transition: all 0.6s ease-in-out;
 }
 
 .sign-in{
-    left: 0;
-    width: 100%;
-    z-index: 2;
+    left: 1;
+    width: 60%;
+    z-index: 1;
 }
 
 .box.active .sign-in{

@@ -29,21 +29,48 @@
         <!--Title-->
         <title>Log In |Emma's Small Engines</title>
     </head>
-<body>
-    
-    <div class="login-section form-box sign-in">
-        <section class="login-header">
-            <h1 class="login-header__title">Welcome to Emma's Small Engine</h1>
-            <p class="login-header__text">Log in with your company email or employee number.</p>
-        </section>
+<body id="body-index">
+    <!--login-->
+    <div class="box login-section form-box sign-in">
         <form action="#home.html" id="login-form" onsubmit="signIn(event)">
+            <h1>Welcome To Emma's Small Engines</h1>
+            <h3>Sign In</h3>
+            <div class="social-icons">
+                <a href="#" class="icon">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                </a>
+                <a href="#" class="icon">
+                    <i class="fa-brands fa-microsoft"></i>
+                </a>
+                <a href="#" class="icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
             <span id="error-message"></span>
             <input name="username" type="text" id="username" placeholder="Email or employee number" class="username" maxlength="15" required>
             <input name="password" type="password" id="password" placeholder="Password">
-            <input type="submit" class="login-btn" value="Log In">
+            <input type="submit" class="btn btn-primary login-btn" value="Log In">
             <a href="/Emma-s-Small-Engines-main/customer.html">Find Account or Password</a>
+
+            
         </form>
     </div>
+    <!--
+
+        <div class="box login-section form-box sign-in">
+            <section class="login-header">
+                <h1 class="login-header__title">Welcome to Emma's Small Engine</h1>
+                <p class="login-header__text">Log in with your company email or employee number.</p>
+            </section>
+            <form action="#home.html" id="login-form" onsubmit="signIn(event)">
+                <span id="error-message"></span>
+                <input name="username" type="text" id="username" placeholder="Email or employee number" class="username" maxlength="15" required>
+                <input name="password" type="password" id="password" placeholder="Password">
+                <input type="submit" class="login-btn" value="Log In">
+                <a href="/Emma-s-Small-Engines-main/customer.html">Find Account or Password</a>
+            </form>
+        </div>
+    -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/493cc16663.js" crossorigin="anonymous"></script>
     <script src="js/variables.js"></script> 
