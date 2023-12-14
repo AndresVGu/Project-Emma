@@ -54,7 +54,7 @@
 
     <li 
         data-bs-toggle="tooltip-mode" data-bs-placement="top" title="Equipment">
-            <a href="inventory.html">
+            <a href="equipment.html">
                 <i class="bx bxs-layer" ></i>
                 <span class="links_name">Equipment</span>
             </a>
@@ -63,7 +63,7 @@
 
     <li 
         data-bs-toggle="tooltip-mode" data-bs-placement="top" title="Repairs">
-            <a href="order_requests.html">
+            <a href="repairs.html">
                 <i class="bx bxs-wrench" ></i>
                 <span class="links_name">Repairs</span>
             </a>
@@ -147,8 +147,49 @@
 
 <!--Content-->
 <main>
-    <h4>CUSTOMER DETAILS</h4>
-</main>
+    <div class="header">
+        <div class="left">
+            <h4>Customer Details</h4>
+            <h4 id="name"></h4>
+        </div>
+        <a href="customer.html" class="report">
+            <span>Back Customer List</span>
+        </a>
+    </div>
+
+<div class=" my-4">
+  <div class="row">
+      <div class="col-sm-12 col m-md-12 col-lg-12 col-xl-12">
+          <table id="datatable_users" class="table">
+              <thead>
+                  <tr>
+                      <th>ID</th>
+                      <th>First Name</th>
+                      <th>Last Name</th>
+                      <th>Email</th>
+                      <th>Phone Number</th>
+                      <th>Address</th>
+                      <th>Province</th>
+                  </tr>
+              </thead>
+              <tbody id="tableBody_users"></tbody>
+          </table>
+      </div>
+      
+  </div>
+</div>
+
+<div class="left">
+<h2>Orders/Repairs</h2>
+</div>
+<div>
+<ol>
+    <li >
+        <a href="#" id="orderRepair"></a>
+    </li>
+  </ol>
+</div>
+  </main>
 <!--EndContent-->
 <!--Footer-->
 <footer class=" foot">

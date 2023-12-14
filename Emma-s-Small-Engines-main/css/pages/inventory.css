@@ -1,14 +1,5 @@
 
 
-/** Reports CSS **//*
-.line-header-div {
-    display: flex; 
-    width: 100%;
-}
-
-.hidden {
-    display: none !important;;
-}*/
 
 .subTotalUnderLineFull {
     width:11%; 
@@ -105,12 +96,7 @@ tr {
 #pagination-wrapper, #pagination-wrapper-sales, #pagination-wrapper-cogs, #pagination-wrapper-hourly{
     text-align: center;
 }
-/*
-.bg-info {
-    background-color:#3D4856!important;
-   /* background-color:#4D4637!important;*/
-/*}
-*/
+
 button:not(:disabled) {
     cursor: pointer;
 }
@@ -334,125 +320,7 @@ button:not(:disabled) {
 #customer-list {
     width: 100%;
 }
-/*
-.inventory_body {
-    display: flex;
-    /*width: auto;
-    justify-content: space-between;*/
-  /*  width: 100vw;
-    height:100vh;
-    background-color: var(--color-background);
-}
-.inventory_header {
-    width: 15%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-black);
-    color: var(--color-white);
-    position: relative;
-    transition: width 0.2s;
-    flex-shrink: 0;
-}
-.nav--collapsed{
-    width:var(--nav--icon-width);
-}
-.nav--collapsed .links_name {
-    display: none;
-}
-.nav__border {
-    position:absolute;
-    left:100%;
-    top:0;
-    width: var(--nav-border-width);
-    height: inherit;
-    background-color: var(--color-black);
-    transition: background-color 0.2s;
-    cursor:ew-resize;
-}
-.nav__border:hover {
-    background-color: #cccccc;;
-}
-.sidenav {
-    height: 100%;
-    
-}*/
-/*
-.log_content {
-    display: flex;
-    align-items: flex-end;
-    
-}
-.log_content a:first-child {
-    padding-right: 0;
-    flex-shrink: 0;
-}
-.log_content a:nth-child(2) {
-    font-size: 28px;
-    font-weight: 600;
-    padding-left: 0;
-}*/
-/*.fa-bars {
-    position: absolute;
-    left: 90%;
-    top: 55px;
-    opacity: 0.7;
-    font-size: 20px;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    line-height: 50px;
-    transform: translateX(-50%);
-}
-.divider {
-    margin-top: 20px;
-    height:1.5px;
-    width: 95%;
-    background-color:  var(--color-grey);
-}*/
 
-
-/*
-.sidenav img {
-    width: 80px;
-    height: 80px;
-}
-.log_content a:first-child {
-    height: 90px;
-}
-.sidenav div a {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 16px;
-    opacity: 0.8;
-    border-radius: var(--size--border--radius);
-    border: none;
-    outline: none;
-}
-
-.logout a{
-    padding: 16px;
-    opacity: 0.8;
-    border-radius: var(--size--border--radius);
-    border: none;
-    outline: none;
-}
-.inventory_header .active {
-    width: 80px;
-}
-
-
-.logout {
-    padding: 10px 10px 10px 30px;
-    /*opacity: 0.8;*/
-  /*  border-radius: var(--size--border--radius);
-    border: none;
-    outline: none;
-    line-height: 30px;
-}*/
 #pageLinks li i, .logout i {
     margin-right: 15px;
 }
