@@ -252,22 +252,23 @@ const tableBuilder = {
                             <td name="CustomerPostal-${data[i].CustomerID}">${data[i].CustomerPostal}</td>
                             <td name="CustomerPhone-${data[i].CustomerID}">${data[i].CustomerPhone}</td>
                             <td>
-                    <button  class="btn btn-sm btn-primary" 
-                    data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Customer">
-                      
+                    <button  class="btn btn-primar" 
+                    data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Customer"
+                    id="btn-edit-table">
+                    
                         <i class="fa-regular fa-pen-to-square" ></i>
                       
                     </button>
 
-                    <button class="btn btn-sm btn-danger" 
-                    
+                    <button class="btn  btn-danger" 
+                    id="btn-delete-table"
                     data-bs-toggle="tooltip-delete" data-bs-placement="top" title="Delete Customer">
                       <i class="fa-regular fa-trash-can"></i>
                     </button>
                   </td>
                   <td>
                     <a href="customerDetails.html"
-                    
+                    class="text-primary"
                     data-bs-toggle="tooltip-details" data-bs-placement="top" title="Customer Details">Details</a>
                   </td>
                       </tr>`;

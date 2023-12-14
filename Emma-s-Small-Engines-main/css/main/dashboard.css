@@ -47,6 +47,8 @@ body.dark{
 body{
     background: var(--grey);
     overflow-x: hidden;
+  
+    
   }
 
 .sidebar{
@@ -179,6 +181,7 @@ body{
 
 .content{
     position: relative;
+    background: red;
     width: calc(100% - 230px);
     left: 230px;
     transition: all 0.3s ease;

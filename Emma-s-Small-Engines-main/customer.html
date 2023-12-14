@@ -27,7 +27,7 @@
         <script src="js/popup.js" defer></script>
         <script src="js/sidevar.js" defer></script>
         <!--Title-->
-        <title>Equipment |Emma's Small Engines</title>
+        <title>Customers |Emma's Small Engines</title>
     </head>
 
 <body>
@@ -145,33 +145,33 @@
 <!-- End of Navbar -->
 
 <!--Content-->
-<main>
+    <main>
     <!--Header-->
-    <section id="pageName">
-        <h4>CUSTOMERS</h4>
-    </section>
+        <section id="pageName">
+            <h4>CUSTOMERS</h4>
+        </section>
     <!--Search Bar-->
-    <section id="inventorySearch">
-        <h5>Search</h5>
+        <section id="inventorySearch">
+            <h5>Search</h5>
 
 <!--Search Bar-->
-        <div class="container-fluid">
-            <i class="fa-solid fa-magnifying-glass" ></i>
-            <input tabindex="70" onfocus="SearchFocus(),SearchLeaveFocus()"
+            <div class="container-fluid">
+                <i class="fa-solid fa-magnifying-glass" ></i>
+                <input tabindex="70" onfocus="SearchFocus(),SearchLeaveFocus()"
                     type="search" id="searchText" 
                     placeholder="Search" name="searchText"
                     data-bs-toggle="tooltip-help" data-bs-placement="top" title="Enter Name or ID"
                     class="form-control mr-sm-2 d-inline">
-        </div>
+            </div>
 
         <!--Edit Button-->
-        <button tabindex="190" class=" btn report btn_crud_edit" onclick="EditItem()" 
+            <button tabindex="190" class=" btn report btn_crud_edit" onclick="EditItem()" 
             style="background-color: #8A3CBA;color:#fff;"
             data-bs-toggle="tooltip-help" data-bs-placement="top" title="Edit Customer"
             id="btnEdit" aria-label="button for edit customer"> 
                 <i class="fa-sharp fa-solid fa-pen"></i> 
                 Edit Customer
-        </button>
+            </button>
 
         <!--Add Customer Button-->
         <button class="btn  report" tabindex="180" onclick="AddItem()" 
@@ -362,6 +362,6 @@
 <script src="https://kit.fontawesome.com/f8c88d6b79.js" crossorigin="anonymous"></script>
 <script src="js/variables.js"></script>  
 <script src="js/customer.js"></script>
-   
+<script src="js/dashboard.js"></script>   
 </body>
 </html>

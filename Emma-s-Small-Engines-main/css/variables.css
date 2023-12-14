@@ -5,7 +5,7 @@
     --color-dark-white: #bdbdbd;
     /*--color-background:  #F2F2F2;*/
     --color-grey: #D9D9D9;
-    --color-orange: #CAA007;
+    --color-orange: #8A3CBA;
     --color-dark-grey:#8F5ECA;
     --color-purple-grey: #3d4856;
     --color-dark-white: #bdbdbd;
@@ -15,7 +15,7 @@
     --color-purple:#8F5ECA;
     --color-plum:#A758BB;
     --color-pinkpurple:#BB55AB;
-    --color-light-yellow:#FFF8EC;
+    --color-light-yellow:#8A3CBA;
     --color-yellow-grey:#b4aa99;
     --color-gradient-blue: linear-gradient(120deg, rgba(255,255,255,1) 0%, rgba(234,239,247,1) 50%, rgba(169,170,188,1) 100%);
     --color-gradient-orange: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(202,160,7,1) 79%);
@@ -41,16 +41,7 @@
     --nav-border-width: 15px;
 }
 /* Universal tags */
-* {
-    box-sizing: border-box;
-}
-    
-body {
-    font-family: "Open Sans", sans-serif;
-    height: 100%;
-    margin: 0px;
-    cursor: default;
-}
+
 
 a {
     text-decoration: none;
@@ -100,4 +91,35 @@ p {
     font-weight: var(--weight-regular);
     color: var(--color-black);
     margin: 4px 0px;
+}
+
+/*Table buttons*/
+#btn-edit-table{
+    width: 35px;
+    padding-left: 13%;
+    border: none;
+    background-color: var(--color-orange);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+    color: #fff;
+    
+    
+}
+
+#btn-edit-table:hover{
+    background-color: #8a3cba87;
+}
+
+#btn-delete-table{
+    width: 35px;
+    padding-left: 13%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+    border: none;
+} 
+
+#btn-delete-table:hover{
+    background-color: rgb(239, 126, 149);
+}
+
+section h5{
+    margin-top: 20px;
 }
