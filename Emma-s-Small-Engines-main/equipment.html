@@ -148,8 +148,9 @@
             <h4>EQUIPMENT</h4>
         </section>
         <section id="inventorySearch" style="position:relative;">
+
             <h2><label id="searchHeader">Search Inventory: </label></h2>
-            <input tabindex="70" onfocus="SearchFocus()" type="text" id="searchText" placeholder="Enter UPC Eg. ###-####-# or Inventory Name Eg. Mower" name="searchText">
+            <input tabindex="70" onfocus="SearchFocus()" type="text" id="searchText" placeholder="Search">
             <div class="btn">
                 <div class="btn_crud">
                     <button hidden tabindex="190" class="btn_crud_edit" onclick="EditItem()" id="btnEdit" aria-label="button for edit items">
@@ -167,7 +168,7 @@
                     <span class="btn_tooltip">Add To Order</span>
                 </div>
                 <div class="btn_crud">
-                    <button class="btn_request" onclick="navigation.orderRequest()" tabindex="200" aria-label="button for order request">
+                    <button class="btn_request" onclick="navigation.newRepair()" tabindex="200" aria-label="button for order request">
                         <i class="fa-solid fa-pen-to-square"></i></button>
                     <span class="btn_tooltip">Order Request</span>
                 </div>
@@ -178,7 +179,7 @@
                 <div class = "description">
                     <table class="table table-striped">
                         <tr  class="bg-info">
-                            <th class="tableHeaders" tabindex="80" data-column="UPC" data-order="desc">UPC</th>
+                            <th class="tableHeaders" tabindex="80" data-column="UPC" data-order="desc">Serial Number</th>
                             <th class="tableHeaders" tabindex="90" data-column="Name" data-order="desc">Name</th>
                             <th class="no-click" data-column="Size" data-order="desc">Size</th>
                             <th class="no-click" data-column="Quantity" data-order="desc">Quantity</th>

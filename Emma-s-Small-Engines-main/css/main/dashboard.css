@@ -181,7 +181,7 @@ body{
 
 .content{
     position: relative;
-    background: red;
+    background:var(--grey);
     width: calc(100% - 230px);
     left: 230px;
     transition: all 0.3s ease;

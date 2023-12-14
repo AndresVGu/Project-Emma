@@ -492,9 +492,7 @@ const tableBuilder = {
 }
 
 const navigation = {
-    home : function toHome(){
-        window.location.href = 'home.html';
-    },
+    
     index : function toIndex(){
         window.location.href = 'index.html';
     },
@@ -508,13 +506,13 @@ const navigation = {
           );
     },
     inventory : function toInventory(){
-        window.location.href = 'inventory.html';
+        window.location.href = 'equipment.html';
     },
-    orderRequest : function toOrderRequest(){
-        window.location.href = 'order_request.html';
+    newRepair : function toNewRepair(){
+        window.location.href = 'newRepair.html';
     },
     orderRequests : function toOrderRequests(){
-        window.location.href = 'order_requests.html';
+        window.location.href = 'repairs.html';
     },
     price : function toPrice(){
         window.location.href = 'price.html';
