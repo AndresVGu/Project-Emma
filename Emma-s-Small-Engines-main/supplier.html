@@ -149,7 +149,7 @@
         </section>
         <div id="inventorySearch" style="position:relative;">
             <label id="searchHeader">Search Suppliers: </label>
-            <input tabindex="70" onfocus="SearchFocus()" type="text" id="searchText" placeholder="Enter Name Eg. John Deere, Phone Eg. ###-###-####, Email Eg. email@domainName.ca" name="searchText">
+            <input tabindex="70" onfocus="SearchFocus()" type="text" id="searchText" placeholder="Search" name="searchText">
             <div class="btn">
                 <div class="btn_crud">
                     <button hidden tabindex="190" class="btn_crud_edit" onclick="EditItem()" id="btnEdit" aria-label="button for edit supplier">
@@ -158,7 +158,7 @@
                 </div>
                 <div class="btn_crud">
                     <button class="btn_crud_add" tabindex="180" onclick="AddItem()" id="btn_add_popup" aria-label="button for add supplier">
-                        <i class="fa-solid fa-plus"></i></button>
+                        <i class="fa-solid fa-plus"></i> Add Equipment</button>
                     <span class="btn_tooltip">Add Supplier</span>
                 </div>
             </div>
@@ -166,7 +166,7 @@
         <div id="inventoryMain">
             <div class=" divider2_desc_btn">
                 <div class = "description">
-                    <table class="table table-striped">
+                    <table class="table table-hover">
                         <tr  class="bg-info">
                             <th class="tableHeaders" tabindex="80" data-column="SupplierID" data-order="desc">Supplier ID</th>
                             <th class="tableHeaders" tabindex="90" data-column="SupplierName" data-order="desc">Name</th>
@@ -271,5 +271,6 @@
 <script src="https://kit.fontawesome.com/f8c88d6b79.js" crossorigin="anonymous"></script>
 <script src="js/variables.js"></script>  
 <script src="js/supplier.js"></script>
+<script src="js/dashboard.js"></script> 
 </body>
 </html>

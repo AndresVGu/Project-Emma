@@ -155,7 +155,6 @@
         <div class="filter-section">
             <div class="filter-setting">
                 <div class="filter-search" >
-                    <i class="fa-solid fa-magnifying-glass" ></i>
                     <input tabindex="67" onchange="loadData()" onfocus="SearchFocus()" id="txtReportSearch" type="text" placeholder="Search" name="searchText" aria-label="input for search">
                 </div>
                 <div class="tab-content">
@@ -177,10 +176,7 @@
                     <div class="date-to">to</div>
                     <input type="date" id="end" class="form-control" value="2022-12-15">
                 </div>
-                <!--<div class="btn_crud filter">
-                    <button class="btn_crud_edit" id="btnEdit" aria-label="button for filter">
-                        <i class="fa-solid fa-filter"></i>Filter</button>
-                </div>-->
+                
             </div>
             
             <div class="filter-print">
@@ -195,10 +191,10 @@
             </div>  
         </div>
         <div class="tab-content">
-            <div id="sales" data-tab-content class="active"><!--using this div for css& javascript for tap-->
-                <div class=" divider2_desc_btn"><!--delete or replace code  -->
+            <div id="sales" data-tab-content class="active">
+                <div class=" divider2_desc_btn">
                     <div class = "description ">
-                        <table class="table table-striped">
+                        <table class="table table-hover">
                             <tr  class="bg-info ">
                                 <th class="no-click" tabindex="80" data-column="SupplierID" data-order="desc">Report Name</th>
                                 <th class="no-click" tabindex="90" data-column="SupplierName" data-order="desc">Date Start</th>
@@ -213,10 +209,9 @@
                     </div>
                 </div>
             </div>
-            <div id="COGS" data-tab-content><!--using this div for css& javascript for tap-->
-                <div class=" divider2_desc_btn"><!--delete or replace code  -->
-                    <div class = "description ">
-                        <table class="table table-striped">
+            <div id="COGS" data-tab-content>
+                <div class=" divider2_desc_btn">
+                        <table class="table table-hover">
                             <tr  class="bg-info ">
                                 <th class="no-click" tabindex="80" data-column="SupplierID" data-order="desc">Report Name</th>
                                 <th class="no-click" tabindex="90" data-column="SupplierName" data-order="desc">Date Start</th>
@@ -231,10 +226,10 @@
                     </div>
                 </div>
             </div>
-            <div id="Hourly" data-tab-content><!--using this div for css& javascript for tap-->
-                <div class=" divider2_desc_btn"><!--delete or replace code  -->
+            <div id="Hourly" data-tab-content>
+                <div class=" divider2_desc_btn">
                     <div class = "description ">
-                        <table class="table table-striped">
+                        <table class="table table-hover">
                             <tr  class="bg-info ">
                                 <th class="no-click" tabindex="80" data-column="SupplierID" data-order="desc">Report Name</th>
                                 <th class="no-click" tabindex="90" data-column="SupplierName" data-order="desc">Date Start</th>
@@ -328,5 +323,6 @@
 <script src="https://kit.fontawesome.com/f8c88d6b79.js" crossorigin="anonymous"></script>
 <script src="js/variables.js"></script>  
 <script src="js/report.js"></script>
+<script src="js/dashboard.js"></script> 
 </body>
 </html>
